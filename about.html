@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]--><head>
-	<title>Ray's</title>
+	<title>Beautiqua</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
-	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
 	<script src="js/modernizr-custom.js"></script>
 
 	<!--[if lt IE 9]>
@@ -31,13 +30,13 @@
 	<![endif]-->
 
 	<div class="preloader">
-		<div class="preloader_image"></div>
+		<div class="preloader_image pulse"></div>
 	</div>
 
 	<!-- search modal -->
 	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
 		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">×</span>
+			<span aria-hidden="true">�</span>
 		</button>
 		<div class="widget widget_search">
 			<form method="get" class="searchform search-form" action="/">
@@ -69,8 +68,15 @@
 			<!-- template sections -->
 
 
-			
-			<!-- header with two Bootstrap columns - left for logo and right for navigation -->
+			<!--topline section visible only on small screens|-->
+
+			<!--"sectionClass": "ds s-borderbottom c-my-10 d-lg-none",-->
+			<!--"containerClassSuffix": "-fluid",-->
+			<!--"includes": "../top-includes/social-icons.html",-->
+			<!--"includes2": "../top-includes/search-modal-button.html"-->
+			<!--})-->
+			<!--eof topline-->
+<!--  header with two Bootstrap columns - left for logo and right for navigation --> 
 			<header class="page_header ls">
 				<div class="container-fluid">
 					<div class="row align-items-center">
@@ -85,14 +91,14 @@
 							<nav class="top-nav">
 								<ul class="nav sf-menu">
 
-									<li class="active">
+									<li>
 										<a href="index.html">Home</a>
 									</li>
 
 								
 
 
-									<li  >
+									<li  class="active">
 										<a href="about.html">About Us</a>
 									</li>
 									<!-- eof pages -->
@@ -132,175 +138,37 @@
 				<!-- header toggler -->
 				<span class="toggle_menu"><span></span></span>
 			</header>
-			<section class="page_slider">
-				<div class="flexslider nav-true">
-					<ul class="slides">
-						<li class="ls cover-image">
-							<img src="images/slide01.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="intro_layers_wrapper">
-											<div class="intro_layers">
-												<div class="intro_layer" data-animation="fadeInLeft">
-													<h2 class="intro_featured_word">beauty</h2>
-												</div>
-												<div class="intro_layer" data-animation="fadeInLeft">
-													<img src="images/person1.png" alt="" class="intro_image">
-												</div>
-											</div> <!-- eof .intro_layers -->
-										</div> <!-- eof .intro_layers_wrapper -->
-									</div> <!-- eof .col-* -->
-								</div><!-- eof .row -->
-							</div><!-- eof .container -->
-						</li>
 
-						<li class="ls cover-image">
-							<img src="images/slide02.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="intro_layers_wrapper">
-											<div class="intro_layers">
-												<div class="intro_layer" data-animation="fadeInLeft">
-													<h2 class="intro_featured_word">Bridal</h2>
-												</div>
-												<div class="intro_layer text-right" data-animation="fadeInLeft">
-													<img src="images/person2.png" alt="" class="intro_image2">
-												</div>
-											</div> <!-- eof .intro_layers -->
-										</div> <!-- eof .intro_layers_wrapper -->
-									</div> <!-- eof .col-* -->
-								</div><!-- eof .row -->
-							</div><!-- eof .container -->
-						</li>
-						<li class="ls cover-image">
-							<img src="images/slide4.png" alt="">
+			<section class="page_title s-parallax s-overlay ls title-overlay s-py-25">
+				<div class="container">
+					<div class="row">
 
-						</li>
+						<div class="fw-divider-space hidden-below-lg mt-130"></div>
+						<div class="fw-divider-space hidden-above-lg mt-60"></div>
 
-
-					</ul>
-				</div> <!-- eof flexslider -->
-				<div class="prev-slide"></div>
-				<div class="next-slide"></div>
-			</section>
-			<section class="main-gallery container-px-0 mt-10">
-				<div class="container-fluid">
-					<div class="row isotope-wrapper masonry-layout c-gutter-10 c-mb-10">
-
-
-						<div class="col-xl-2 col-sm-6 ">
-							<div class="vertical-item item-gallery text-center ds">
-								<div class="item-media">
-									<img src="images/01.jpg" class="rounded-0" alt="img">
-									<div class="media-links">
-										<a class="abs-link" title="" href="gallery-single.html"></a>
-									</div>
-									<div class="galery-vertical">
-										<p>Microblading</p>
-									</div>
-
-								</div>
-							</div>
+						<div class="col-md-12 text-center">
+							<h1>About Us</h1>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item">
+									<a href="./">Home</a>
+								</li>
+								<li class="breadcrumb-item">
+									<a href="#">Pages</a>
+								</li>
+								<li class="breadcrumb-item active">
+									About Us
+								</li>
+							</ol>
 						</div>
 
-						<div class="col-xl-2 col-sm-6">
-							<div class="vertical-item item-gallery text-center ds">
-								<div class="item-media h-100 w-100 d-block">
-									<img src="images/02.jpg" class="rounded-0" alt="img">
-									<div class="media-links">
-										<a class="abs-link" title="" href="gallery-single.html"></a>
-									</div>
-									<div class="galery-vertical">
-										<p>Piercing</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-4 col-sm-6">
-							<div class="vertical-item item-gallery text-center ds">
-								<div class="item-media h-100 w-100 d-block">
-									<img src="images/03_1.jpg" class="rounded-0" alt="img">
-									<div class="media-links">
-										<a class="abs-link" title="" href="gallery-single.html"></a>
-									</div>
-									<div class="galery-gorizontal">
-										<h3>Manicure
-											&amp; Pedicure Services</h3>
-										<p>Paraffin Nails, Glitter or Nail Arts, Manicure</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-4 col-sm-6">
-							<div class="vertical-item item-gallery text-center ds">
-								<div class="item-media h-100 w-100 d-block">
-									<img src="images/04.jpg" class="rounded-0" alt="img">
-									<div class="media-links">
-										<a class="abs-link" title="" href="gallery-single.html"></a>
-									</div>
-									<div class="galery-gorizontal gallery-center">
-										<h3>Hair Stylist</h3>
-										<p>Hair Cut, Hair Wash, Beard, Mustache</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="col-xl-2 col-sm-6">
-							<div class="vertical-item item-gallery text-center ds">
-								<div class="item-media h-100 w-100 d-block">
-									<img src="images/06.jpg" class="rounded-0" alt="img">
-									<div class="media-links">
-										<a class="abs-link" title="" href="gallery-single.html"></a>
-									</div>
-									<div class="galery-vertical title-right">
-										<p>Tanning</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-2 col-sm-6">
-							<div class="vertical-item item-gallery text-center ds">
-								<div class="item-media h-100 w-100 d-block">
-									<img src="images/07.jpg" class="rounded-0" alt="img">
-									<div class="media-links">
-										<a class="abs-link" title="" href="gallery-single.html"></a>
-									</div>
-									<div class="galery-vertical title-right">
-										<p>Makeup</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-sm-6">
-							<div class="vertical-item item-gallery text-center ds">
-								<div class="item-media h-100 w-100 d-block">
-									<img src="images/05.jpg" class="rounded-0" alt="img">
-									<div class="media-links">
-										<a class="abs-link" title="" href="gallery-single.html"></a>
-									</div>
-									<div class="galery-gorizontal gallery-center">
-										<h3>Fashion Salon</h3>
-										<p>Micriblading, Piercing, Modifications</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
+						<div class="fw-divider-space hidden-below-lg mt-130"></div>
+						<div class="fw-divider-space hidden-above-lg mt-60"></div>
 
 					</div>
 				</div>
-				<!-- .isotope-wrapper-->
-
 			</section>
 
-			<section class="ls hello s-pt-50 s-pt-lg-100 s-pt-xl-150 c-mb-30 c-gutter-60">
+			<section class="ls hello s-pt-60 s-pt-lg-100 s-pt-xl-150 c-mb-30 c-gutter-60">
 				<div class="container">
 					<div class="row">
 						<div class="col-5 d-none d-md-block">
@@ -310,7 +178,7 @@
 							<div class="divider-60 d-none d-xl-block"></div>
 							<div class="title-section text-center text-md-left">
 								<span class="sub-title absolute-subtitle">welcome</span>
-								<h3 class="special-heading"> <span><span>R</span>ay's  <br></span>Beauty Salon</h3>
+								<h3 class="special-heading"> <span><span>B</span>eautiqua <br></span>Beauty Salon</h3>
 							</div>
 							<div class="divider-60 d-none d-xl-block"></div>
 							<div class="row">
@@ -327,7 +195,7 @@
 								<div class="owl-carousel" data-loop="true" data-margin="30" data-nav="false" data-dots="true" data-center="false" data-items="1" data-autoplay="false" data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="2" data-responsive-lg="3">
 									<div class="step-item">
 										<div class="hello-img text-center">
-											<img src="images/05_1.jpg" width="200" height="200" alt="">
+											<img src="images/05.jpg" width="200" height="200" alt="">
 											<span>Haircut</span>
 										</div>
 										<div class="hello-content text-center">
@@ -336,7 +204,6 @@
 										</div>
 									</div>
 									<div class="step-item">
-										3
 										<div class="hello-item">
 											<div class="hello-img text-center">
 												<img src="images/12.jpg" width="200" height="200" alt="">
@@ -365,7 +232,7 @@
 									<div class="step-item">
 										<div class="hello-item">
 											<div class="hello-img text-center">
-												<img src="images/01_4.jpg" width="200" height="200" alt="">
+												<img src="images/01.jpg" width="200" height="200" alt="">
 												<span>tatoo</span>
 											</div>
 											<div class="hello-content text-center">
@@ -385,8 +252,7 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="ls ms s-overlay s-parallax video-section s-pt-295 s-pt-sm-410 s-pt-md-360 s-pb-md-100 s-pt-lg-395 s-pb-lg-150 s-pt-xl-430 s-pb-xl-230 s-pb-60">
+			<section class="ls ms s-overlay s-parallax video-section video-about s-pt-295 s-pt-sm-410 s-pt-md-360 s-pb-md-60 s-pt-lg-395 s-pb-lg-110 s-pt-xl-430 s-pb-xl-230 s-pb-60">
 
 				<div class="container">
 					<div class="row">
@@ -413,67 +279,6 @@
 				</div>
 			</section>
 
-			<section class="ls appointment s-pt-60 s-pt-md-0 container-px-xl-165 container-px-lg-40 container-px-md-10">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12 col-md-6 col-xl-6 d-none d-md-block">
-							<img src="images/appoitment-bg.jpg" alt="">
-						</div>
-						<div class="col-12 col-md-6 col-xl-6">
-
-							<form class="appointment-form c-mb-20 c-gutter-20" method="post" action="/">
-								<div class="divider-150 d-none d-xl-block"></div>
-								<span class="sub-title text-center text-md-left">Client’s Quick</span>
-								<h3 class="special-heading text-center text-md-left">Appointment</h3>
-								<div class="divider-70 d-none d-xl-block"></div>
-								<div class="row">
-									<div class="col-sm-12">
-										<div class="form-group">
-											<i class="flaticon-profile"></i>
-											<input type="text" name="name" class="form-control" placeholder="full name">
-										</div>
-									</div>
-
-
-								</div>
-								<div class="row">
-									<div class="col-sm-6">
-										<div class="form-group">
-											<i class="flaticon-clock"></i>
-											<input type="tel" name="phone" class="form-control" placeholder="time">
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="form-group">
-											<i class="flaticon-cut"></i>
-											<input type="text" name="city" class="form-control" placeholder="service">
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-12">
-										<div class="form-group">
-											<i class="flaticon-clip"></i>
-											<textarea rows="5" cols="45" name="message" class="form-control" placeholder="extra notes"></textarea>
-										</div>
-									</div>
-
-								</div>
-								<div class="row ">
-									<div class="col-sm-12 text-center text-md-left">
-										<div class="divider-60 d-none d-xl-block"></div>
-										<div class="divider-20 d-xl-none"></div>
-										<div class="form-group justify-content-center justify-content-md-start">
-											<button type="submit" class="btn btn-outline-maincolor">make Appointment</button>
-										</div>
-									</div>
-
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
 			<section class="ls s-pt-60 s-pt-lg-110 s-pt-xl-145 s-pb-60 s-pb-lg-70 s-pb-xl-110 service">
 				<div class="container">
 					<div class="row">
@@ -482,10 +287,9 @@
 							<h3 class="special-heading">Most Popular Services</h3>
 							<p>Consetetur sadipscing elitr, sed nonumy eirmod tempor invidunt ut labore dolore.</p>
 							<div class="divider-110 d-none d-xl-block"></div>
-							<div class="divider-40 d-xl-none"></div>
 							<div class="sevices-single">
 								<div class="sevices-single__image">
-									<a href="service-single.html"><img src="images/01_3.jpg" width="500" height="600" alt=""></a>
+									<a href="service-single.html"><img src="images/01_1.jpg" width="500" height="600" alt=""></a>
 								</div>
 								<a href="service-single.html">
 									<h4>Professional Makeup</h4>
@@ -494,10 +298,10 @@
 							</div>
 							<div class="sevices-single">
 								<div class="sevices-single__image">
-									<a href="service-single.html"><img src="images/02_5.jpg" width="400" height="480" alt=""></a>
+									<a href="service-single.html"><img src="images/02.jpg" width="400" height="480" alt=""></a>
 								</div>
 								<a href="service-single.html">
-									<h4>Saadi Mehadi &amp; Meakup</h4>
+									<h4>Tattoo & Piercing</h4>
 								</a>
 								<a href="service-single.html"><span>Modifications</span></a>
 							</div>
@@ -505,19 +309,19 @@
 						<div class="col-12 col-lg-6 text-center text-lg-right">
 							<div class="sevices-single text-left">
 								<div class="sevices-single__image">
-									<a href="service-single.html"><img src="images/03.jpg" width="400" height="480" alt=""></a>
+									<a href="service-single.html"><img src="images/03_1.jpg" width="400" height="480" alt=""></a>
 								</div>
 								<a href="service-single.html">
-									<h4>Experts Hair Stylist</h4>
+									<h4>Beard Cutting Experts</h4>
 								</a>
 								<a href="service-single.html"><span>Hair</span></a>
 							</div>
 							<div class="sevices-single text-left">
 								<div class="sevices-single__image">
-									<a href="service-single.html"><img src="images/04_2.jpg" width="500" height="600" alt=""></a>
+									<a href="service-single.html"><img src="images/04.jpg" width="500" height="600" alt=""></a>
 								</div>
 								<a href="service-single.html">
-									<h4>Manicure &amp; Pedicure Services</h4>
+									<h4>Manicure & Pedicure Services</h4>
 								</a>
 								<a href="service-single.html"><span>Nails</span></a>
 							</div>
@@ -529,49 +333,8 @@
 					</div>
 				</div>
 			</section>
-			<section class="ls ms portfolio-section s-pt-60 s-pb-60 s-pt-lg-110 s-pb-lg-90  s-pt-xl-150 s-pb-xl-140 s-overlay s-parallax container-px-xl-165 container-px-lg-100 container-px-md-10 c-gutter-70">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xl-5 text-center text-lg-left">
-							<div class="title-portfolio">
-								<span class="sub-title">Check Out</span>
-								<h3 class="special-heading">Our
-									Portfolio</h3>
-								<p>Stet clita kasd gubergren, no takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor. </p>
-							</div>
 
-						</div>
-						<div class="col-xl-7">
-							<div class="owl-carousel" data-loop="true" data-margin="30" data-nav="true" data-dots="true" data-center="false" data-items="1" data-autoplay="false" data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="1" data-responsive-lg="1" data-filters=".portfolio-filters">
-								<div class="posrtfolio-single hair other">
-									<img src="images/01_2.jpg" alt="">
-								</div>
-								<div class="posrtfolio-single hair makeup">
-									<img src="images/02_1.jpg" alt="">
-								</div>
-								<div class="posrtfolio-single makeup nails">
-									<img src="images/03_3.jpg" alt="">
-								</div>
-								<div class="posrtfolio-single nails">
-									<img src="images/04_3.jpg" alt="">
-								</div>
-								<div class="posrtfolio-single other">
-									<img src="images/05_2.jpg" alt="">
-								</div>
-							</div>
-							<div class="filters portfolio-filters text-lg-right">
-								<a href="#" data-filter="*" class="active selected">All</a>
-								<a href="#" data-filter=".hair">Hair</a>
-								<a href="#" data-filter=".makeup">Makeup</a>
-								<a href="#" data-filter=".nails">Nails</a>
-								<a href="#" data-filter=".other">Other</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="ls quote-section  s-py-60 s-pt-lg-90 s-pb-lg-100 s-pt-xl-160 s-pb-xl-150">
+			<section class="ls quote-section  about-quote s-overlay s-parallax s-py-60 s-pt-lg-90 s-pb-lg-100 s-pt-xl-100 s-pb-xl-110">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -592,7 +355,7 @@
 								</div>
 								<div class="quote-item">
 									<div class="quote__image">
-										<img src="images/07_1.jpg" alt="">
+										<img src="images/07.jpg" alt="">
 									</div>
 									<blockquote>
 										<footer>
@@ -606,7 +369,7 @@
 								</div>
 								<div class="quote-item">
 									<div class="quote__image">
-										<img src="images/06_1.jpg" alt="">
+										<img src="images/06.jpg" alt="">
 									</div>
 									<blockquote>
 										<footer>
@@ -623,115 +386,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="ls post-section s-pt-xl-0 s-pb-50 s-pb-lg-100 s-pb-xl-140 container-px-xl-0 container-px-xl-20">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<div class="owl-carousel" data-loop="true" data-margin="30" data-nav="true" data-dots="true" data-center="true" data-items="1" data-autoplay="false" data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="3" data-responsive-lg="3">
-
-								<article class="text-center text-md-left vertical-item post type-post status-publish format-standard">
-									<div class="item-media post-thumbnail">
-										<a href="blog-single-@@type.html">
-											<img src="images/10.jpg" alt="img">
-										</a>
-									</div><!-- .post-thumbnail -->
-									<div class="item-content">
-										<header class="entry-header">
-											<a href="blog-@@type.html">
-												Barber
-											</a>
-										</header>
-										<!-- .entry-header -->
-
-										<div class="entry-content">
-											<h3 class="entry-title">
-												<a href="blog-single-@@type.html" rel="bookmark">
-													Lorem ipsum dolor sit amet, consetetur
-												</a>
-											</h3>
-										</div><!-- .entry-content -->
-										<!-- .entry-meta -->
-									</div><!-- .item-content -->
-								</article><!-- #post-## -->
-								<article class="text-center text-md-left vertical-item post type-post status-publish format-standard">
-									<div class="item-media post-thumbnail">
-										<a href="blog-single-@@type.html">
-											<img src="images/11.jpg" alt="img">
-										</a>
-									</div><!-- .post-thumbnail -->
-									<div class="item-content">
-										<header class="entry-header">
-											<a href="blog-@@type.html">
-												Tattoo
-											</a>
-										</header>
-										<!-- .entry-header -->
-
-										<div class="entry-content">
-											<h3 class="entry-title">
-												<a href="blog-single-@@type.html" rel="bookmark">
-													Elitr sed diam nonumy eirmod tempor
-												</a>
-											</h3>
-										</div><!-- .entry-content -->
-										<!-- .entry-meta -->
-									</div><!-- .item-content -->
-								</article><!-- #post-## -->
-								<article class="text-center text-md-left vertical-item post type-post status-publish format-standard">
-									<div class="item-media post-thumbnail">
-										<a href="blog-single-@@type.html">
-											<img src="images/02_3.jpg" alt="img">
-										</a>
-									</div><!-- .post-thumbnail -->
-									<div class="item-content">
-										<header class="entry-header">
-											<a href="blog-@@type.html">
-												Microblading
-											</a>
-										</header>
-										<!-- .entry-header -->
-
-										<div class="entry-content">
-											<h3 class="entry-title">
-												<a href="blog-single-@@type.html" rel="bookmark">
-													Elitr sed diam nonumy eirmod tempor
-												</a>
-											</h3>
-										</div><!-- .entry-content -->
-										<!-- .entry-meta -->
-									</div><!-- .item-content -->
-								</article><!-- #post-## -->
-
-								<article class="text-center text-md-left vertical-item post type-post status-publish format-standard">
-									<div class="item-media post-thumbnail">
-										<a href="blog-single-@@type.html">
-											<img src="images/02_3.jpg" alt="img">
-										</a>
-									</div><!-- .post-thumbnail -->
-									<div class="item-content">
-										<header class="entry-header">
-											<a href="blog-@@type.html">
-												Makeup
-											</a>
-										</header>
-										<!-- .entry-header -->
-
-										<div class="entry-content">
-											<h3 class="entry-title">
-												<a href="blog-single-@@type.html" rel="bookmark">
-													Dolore magna aliquyam erat sed diam voluptua
-												</a>
-											</h3>
-										</div><!-- .entry-content -->
-										<!-- .entry-meta -->
-									</div><!-- .item-content -->
-								</article><!-- #post-## -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="section-team team ls s-pb-60 s-pb-md-90 s-pb-lg-130 s-pb-xl-220">
+			<section class="section-team team ls s-py-60  s-pb-lg-130 s-pt-lg-100 s-pt-xl-160 s-pb-xl-220 s-pb-xl-220">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -742,7 +397,7 @@
 							<div class="owl-carousel" data-loop="true" data-margin="30" data-nav="true" data-dots="true" data-center="false" data-items="1" data-autoplay="false" data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="2" data-responsive-lg="3">
 								<div class="vertical-item content-padding text-center">
 									<div class="item-media">
-										<img src="images/01_1.jpg" alt="img">
+										<img src="images/01_2.jpg" alt="img">
 										<div class="media-links">
 											<a class="abs-link" title="" href="team-single.html"></a>
 										</div>
@@ -790,7 +445,7 @@
 								</div>
 								<div class="vertical-item content-padding text-center">
 									<div class="item-media">
-										<img src="images/03_2.jpg" alt="img">
+										<img src="images/03.jpg" alt="img">
 										<div class="media-links">
 											<a class="abs-link" title="" href="team-single.html"></a>
 										</div>
@@ -850,25 +505,25 @@
 
 							<div class="owl-carousel small-gallery-carousel" data-margin="0" data-responsive-lg="8" data-responsive-md="4" data-responsive-sm="3" data-responsive-xs="2" data-nav="true" data-loop="true">
 								<a href="images/square/01.jpg" class="photoswipe-link" data-width="800" data-height="800">
-									<img src="images/01_4.jpg" alt="">
+									<img src="images/01.jpg" alt="">
 								</a>
 								<a href="images/square/02.jpg" class="photoswipe-link" data-width="800" data-height="800">
-									<img src="images/02_4.jpg" alt="">
+									<img src="images/02_1.jpg" alt="">
 								</a>
 								<a href="images/square/03.jpg" class="photoswipe-link" data-width="800" data-height="800">
-									<img src="images/03_4.jpg" alt="">
+									<img src="images/03_2.jpg" alt="">
 								</a>
 								<a href="images/square/04.jpg" class="photoswipe-link" data-width="800" data-height="800">
-									<img src="images/04_4.jpg" alt="">
+									<img src="images/04_2.jpg" alt="">
 								</a>
 								<a href="images/square/05.jpg" class="photoswipe-link" data-width="800" data-height="800" data-iframe="https://www.youtube.com/embed/mcixldqDIEQ">
-									<img src="images/05_1.jpg" alt="">
+									<img src="images/05.jpg" alt="">
 								</a>
 								<a href="images/square/06.jpg" class="photoswipe-link" data-width="800" data-height="800" data-iframe="//player.vimeo.com/video/1084537">
-									<img src="images/06_1.jpg" alt="">
+									<img src="images/06.jpg" alt="">
 								</a>
 								<a href="images/square/07.jpg" class="photoswipe-link" data-width="800" data-height="800">
-									<img src="images/07_1.jpg" alt="">
+									<img src="images/07.jpg" alt="">
 								</a>
 								<a href="images/square/08.jpg" class="photoswipe-link" data-width="800" data-height="800">
 									<img src="images/08.jpg" alt="">
@@ -877,10 +532,10 @@
 									<img src="images/09.jpg" alt="">
 								</a>
 								<a href="images/square/10.jpg" class="photoswipe-link" data-width="800" data-height="800">
-									<img src="images/10_1.jpg" alt="">
+									<img src="images/10.jpg" alt="">
 								</a>
 								<a href="images/square/11.jpg" class="photoswipe-link" data-width="800" data-height="800">
-									<img src="images/11_1.jpg" alt="">
+									<img src="images/11.jpg" alt="">
 								</a>
 
 							</div>
@@ -890,7 +545,48 @@
 			</section>
 			<footer class="page_footer overflow-hidden ls s-pt-10 mt-10 s-overlay s-parallax">
 				<div class="container">
-					
+					<div class="row">
+						<div class="fw-divider-space hidden-below-xl mt-140"></div>
+						<div class="fw-divider-space hidden-below-lg d-xl-none mt-110"></div>
+						<div class="fw-divider-space hidden-above-lg mt-50"></div>
+						<div class="col-12 text-center animate" data-animation="fadeInUp">
+							<div class="widget widget_mailchimp">
+								<span class="sub-title">Subscribe</span>
+								<h2 class="special-heading">Newsletter</h2>
+
+								<p>
+									Subscribe newsletter to be updated, we promise not to spam
+								</p>
+
+								<form class="signup" action="/">
+									<label for="mailchimp_email1">
+										<span class="screen-reader-text">Subscribe:</span>
+									</label>
+									<i class="flaticon-envelope"></i>
+									<input id="mailchimp_email1" name="email" type="email" class="form-control mailchimp_email" placeholder="Your Email">
+
+									<button type="submit" class="search-submit">
+										<i class="fa fa-pencil"></i>
+									</button>
+									<div class="response"></div>
+								</form>
+
+							</div>
+							<div class="widget widget_social_buttons">
+								<a href="#" class="fa fa-facebook border-icon rounded-icon" title="facebook"></a>
+								<a href="#" class="fa fa-twitter border-icon rounded-icon" title="twitter"></a>
+								<a href="#" class="fa fa-google-plus border-icon rounded-icon" title="google"></a>
+								<a href="#" class="fa fa-instagram border-icon rounded-icon" title="google"></a>
+								<a href="#" class="fa fa-youtube-play border-icon rounded-icon" title="google"></a>
+							</div>
+
+
+						</div>
+						<div class="fw-divider-space hidden-below-xl mt-140"></div>
+						<div class="fw-divider-space hidden-below-lg d-xl-none mt-110"></div>
+						<div class="fw-divider-space hidden-above-lg mt-50"></div>
+
+					</div>
 				</div>
 			</footer>
 			<section class="page_copyright ls">
@@ -907,17 +603,13 @@
 				</div>
 			</section>
 
-
 		</div><!-- eof #box_wrapper -->
 	</div><!-- eof #canvas -->
 
 
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
-	
 
-	<!-- Google Map Script -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?callback=templateInitGoogleMap&amp;key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4"></script>
 
 
 
